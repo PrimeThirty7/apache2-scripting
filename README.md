@@ -1,6 +1,8 @@
 # apache2-scripting
 ## Apache2 Script Ready Web Server
 
+**Please note - this isn't ready for production use. It is suitable for internal testing at most.**
+
 This docker image is based on the php-apache2 image, with minor changes to support Python, PHP and Perl scripts. It is not meant for production use, more of a simple repeatable base dockerised environment for hosting scripts whilst being developed.
 
 The document root by default is /var/www/html with scripts also beind available in /var/www/cgi-bin. By default if you don't map a local directory into those paths, you will be treated with a Default Page, based loosely on the original provided by Debian (and then modified by Ubuntu) used by the Apache2 package management team.
