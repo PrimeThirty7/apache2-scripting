@@ -1,7 +1,7 @@
 # apache2-scripting
 ## Apache2 Script Ready Web Server
 
-**Please note - this isn't ready for production use. It is suitable for internal testing at most.**
+**Please note - this isn't ready for production use. It is suitable for internal testing only.**
 
 This docker image is based on the php-apache2 image, with minor changes to support Python, PHP and Perl scripts. It is not meant for production use, more of a simple repeatable base dockerised environment for hosting scripts whilst being developed.
 
